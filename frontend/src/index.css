@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* navlink are  treated as a anchor tag (a) so when we are on that page  then anchor tag add the class active to the navlink so by targeting that we can have the hr to be block like this  */
+a.active hr{
+    display: block;
+}
+
+
+*{
+    font-family: Outfit;
+}
+.prata-regular {
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* for hiding the scrollbar present in the product time  */
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+/* means when width from 0 to 640px then this media query will applys */
+@media (max-width:640px) {
+    
+    a.active {
+        background-color: black;
+        color: white;
+    }
+}  
