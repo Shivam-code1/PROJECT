@@ -22,6 +22,8 @@ app.use(cors())
 
 
 
+
+
 // api endpoints
 app.use('/api/user',userRouter)//it is for the user 
 app.use('/api/product',productRouter)//it is for the product
