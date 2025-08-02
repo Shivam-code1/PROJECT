@@ -28,8 +28,4 @@ A fully responsive and modern eCommerce web application built with essential onl
 
 [Live Website](https://forever-frontend1-nu.vercel.app/)
 
-## 🛠️ Installation & Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
